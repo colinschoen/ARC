@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>Colin:Avatar_Rounded_Corners</id>
+	<version>1.0</version>
+
+	<!-- Modification -->
+
+<file name="$themedir/css/index.css">
+		<operation>
+			<search position="before"><![CDATA[
+/* poster details and list of items */
+]]></search>
+			<add><![CDATA[
+.avatar 
+{
+	border-radius: 6px;
+	-moz-border-radius: 6x;
+	-webkit-border-radius: 6px;
+	
+}
+]]></add>
+		</operation>
+	</file>
+</modification>

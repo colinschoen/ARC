@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<package-info xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<name>Avatar Rounded Corners</name>
+	<id>Colin:Avatar_Rounded_Corners</id>
+	<version>1.0</version>
+	<type>modification</type>
+	
+	<install for="2.0-2.0.99">
+		<readme parsebbc="true">readme.txt</readme>
+		<modification>modifications.xml</modification>
+	</install>
+	
+	<uninstall for="2.0-2.0.99">
+		<readme parsebbc="true">readme.txt</readme>
+		<modification reverse="true">modifications.xml</modification>
+	</uninstall>
+</package-info>
